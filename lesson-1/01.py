@@ -4,11 +4,11 @@ print(count)
 password = 'qwerty'
 print(password)
 
-isSecuredPassword = False
-print(isSecuredPassword)
+is_secured_password = False
+print(is_secured_password)
 
 number = int(input('Введите число: '))
-print(number)
+print(f'Вы ввели число {number}')
 
 string = input('Введите строку: ')
-print(string)
+print(f'Вы ввели строку "{string}"')
